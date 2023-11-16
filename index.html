@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+           <center> <img src="logo.png" alt="logo"/> </center>
+
+            <div style="min-height: 100px; 
+            background-color:rgb(234, 251, 252);
+            padding-top: 20px; 
+            padding-left: 50px; 
+            padding-right: 50px;
+            padding-bottom: 150px;
+            outline-width: 5px; border-color: black;">
+           <h1>Let's KickPost!</h1>
+            <h4>Choose your region and add your work email to start.</h4>
+            <form action="/action.php" method="post">
+                <select name="Region" id="region-select">
+                    <option value="">Choose Your Region</option>
+                    <option value="Region 1">Region 1</option>
+                    <option value="Region 2">Region 2</option>
+                    <option value="Region 3">Region 3</option>
+                    <option value="Region 4">Region 4</option>                
+                </select>
+            </form>
+            <br/>
+            <form action="/action.php" method="post">
+                <label for="email">Work Email</label> <br/>
+                <input type="email" name="yourmail">
+            </form>
+
+            <p>By joining you confirm you accept our <span style="color:rgb(119, 195, 153)"> terms of service</span> and <span style="color:rgb(119, 195, 153)"> privacy policy</span>.</p>
+
+            <button type="button" style="color:rgb(119, 195, 153) ;background-color:white ; border: solid; border-color:rgb(119, 195, 153);border-radius: 5px; min-width:400px; min-height: 40px; padding: 10px">Next</button>
+            </div>
+        </body>
+    </head>
+</html>
